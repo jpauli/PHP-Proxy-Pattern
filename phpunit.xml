@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./tests/bootstrap.php" colors="true" verbose="true">
+    <testsuites>
+        <testsuite name="PHP Proxy Pattern test suite">
+            <directory>tests/CacheAdapter</directory>
+            <file>tests/ProxyTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

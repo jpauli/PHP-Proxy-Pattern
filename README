@@ -1,0 +1,7 @@
+This project is aimed for PHP training sessions and is not designed to be used as a production code as-is.
+It shows how to implement a simple Proxy pattern in PHP for caching calls to heavy object methods
+
+The proxy can aggregate one and only one cache backend.
+The proxy proxies methods of one and only one object (aggregated)
+
+PHP >= 7.2
